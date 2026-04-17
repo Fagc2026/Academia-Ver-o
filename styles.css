@@ -127,13 +127,14 @@ section { padding: 100px 5%; }
 .price-tag { position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: var(--purple); color: #fff; font-family: 'Barlow Condensed', sans-serif; font-size: .75rem; letter-spacing: 2px; text-transform: uppercase; padding: 4px 20px; border-radius: 50px; white-space: nowrap; }
 .price-plan { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: .95rem; letter-spacing: 2px; text-transform: uppercase; color: var(--gray); margin-bottom: 16px; }
 .price-amount { display: flex; align-items: baseline; justify-content: center; gap: 4px; font-family: 'Bebas Neue', sans-serif; margin-bottom: 4px; }
-.price-amount .euro { font-size: 1.5rem; color: var(--purple-light); }
-.price-amount .value { font-size: 4rem; line-height: 1; color: var(--white); }
+.price-amount .euro { font-size: 4rem; color: var(--purple-light); }
+.price-amount .value { font-size: 1.2rem; line-height: 1; color: var(--white); }
 .price-desc { font-size: .75rem; color: var(--gray); font-family: 'Barlow Condensed', sans-serif; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 20px; }
 .price-features { list-style: none; text-align: left; margin-bottom: 24px; flex: 1; }
 .price-features li { display: flex; align-items: flex-start; gap: 10px; font-size: .88rem; padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.04); color: var(--gray); line-height: 1.4; }
 .price-features li:last-child { border-bottom: none; }
 .price-features li .check { color: var(--purple-light); font-size: .9rem; flex-shrink: 0; margin-top: 2px; }
+
 
 /* SERVIÇOS EXTRA */
 .extra-section { background: var(--card-bg); border: 1px solid rgba(181,79,232,0.15); border-radius: 16px; overflow: hidden; }
@@ -219,4 +220,19 @@ footer { background: var(--black); border-top: 1px solid rgba(255,255,255,0.05);
   .about-pillars { grid-template-columns: 1fr; }
   section { padding: 70px 5%; }
   .extra-table td { padding: 12px 16px; }
+}
+
+.qr-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.qr-box img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
 }
