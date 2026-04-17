@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Changer Football Academy – Verão 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,400;0,600;0,700;1,400&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="nav-logo">
+    <img src="logo2.png" alt="GC Logo" onerror="this.style.display='none'">
+    Game Changer Football Academy
+  </a>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#treinadores">Staff</a></li>
+    <li><a href="#planeamento">Planeamento</a></li>
+    <li><a href="#regulamento">Regulamento</a></li>
+    <li><a href="#precario">Preçário</a></li>
+    <li><a href="#contactos">Contactos</a></li>
+    <li><a href="#inscricao" class="nav-cta">Inscrição</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#sobre" onclick="closeMenu()">Sobre</a>
+  <a href="#servicos" onclick="closeMenu()">Serviços</a>
+  <a href="#treinadores" onclick="closeMenu()">Staff</a>
+  <a href="#planeamento" onclick="closeMenu()">Planeamento</a>
+  <a href="#regulamento" onclick="closeMenu()">Regulamento</a>
+  <a href="#precario" onclick="closeMenu()">Preçário</a>
+  <a href="#contactos" onclick="closeMenu()">Contactos</a>
+  <a href="#inscricao" onclick="closeMenu()" style="color:var(--purple-light)">→ Inscrição</a>
+</div>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <img src="logo2.png" class="hero-logo-img" alt="Game Changer Football Academy Logo">
+    <h1 class="hero-title">
+      GAME<br>
+      <span class="white">CHANGER</span><br>
+      <span class="accent">FOOTBALL ACADEMY</span>
+    </h1>
+    <p class="hero-sub">Desenvolve as tuas competências e aumenta o teu rendimento — físico, técnico, tático e psicológico.</p>
+    <div class="hero-buttons">
+      <a href="#inscricao" class="btn-primary">Inscreve-te Já</a>
+      <a href="#servicos" class="btn-outline">Saber Mais</a>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre">
+  <div class="about-grid">
+    <div>
+      <p class="section-label">Quem Somos</p>
+      <h2 class="section-title">MAIS DO QUE<br>FUTEBOL</h2>
+      <p class="section-sub">A Game Changer Football Academy nasce da paixão pelo desporto e pelo desenvolvimento humano. A nossa academia de verão pretende desenvolver o alto rendimento, combinando o treino físico, técnico, tático e psicológico.</p>
+      <p class="section-sub" style="margin-top:12px">Os atletas serão distribuídos por escalões de acordo com a idade e o nível de desempenho.</p>
+      <div class="about-pillars">
+        <div class="pillar"><div class="pillar-icon">👶</div><div class="pillar-title">Little Kickers</div><div class="pillar-text">Nascidos até 2019</div></div>
+        <div class="pillar"><div class="pillar-icon">⭐</div><div class="pillar-title">Rising Stars</div><div class="pillar-text">2018 – 2015</div></div>
+        <div class="pillar"><div class="pillar-icon">🔥</div><div class="pillar-title">Young Strikers</div><div class="pillar-text">2014 – 2011</div></div>
+        <div class="pillar"><div class="pillar-icon">⚔️</div><div class="pillar-title">Elite Squad</div><div class="pillar-text">2010 – 2007</div></div>
+        <div class="pillar"><div class="pillar-icon">👑</div><div class="pillar-title">Premier Squad</div><div class="pillar-text">2006 ou antes</div></div>
+      </div>
+    </div>
+    <div class="about-visual">
+      <div class="about-circle">
+        <img src="logo2.png" class="about-logo" alt="Logo GC">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos">
+  <div class="section-header reveal">
+    <p class="section-label">O que oferecemos</p>
+    <h2 class="section-title">SERVIÇOS</h2>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal"><div class="service-num">01</div><div class="service-icon">📊</div><div class="service-title">Avaliação Diagnóstica</div></div>
+    <div class="service-card reveal"><div class="service-num">02</div><div class="service-icon">💪</div><div class="service-title">Testes Físicos</div></div>
+    <div class="service-card reveal"><div class="service-num">03</div><div class="service-icon">🧠</div><div class="service-title">Formações</div></div>
+    <div class="service-card reveal"><div class="service-num">04</div><div class="service-icon">⚽</div><div class="service-title">Sessões de Treino</div></div>
+    <div class="service-card reveal"><div class="service-num">05</div><div class="service-icon">📄</div><div class="service-title">Relatório de Avaliação Final</div></div>
+    <div class="service-card reveal"><div class="service-num">06</div><div class="service-icon">👕</div><div class="service-title">Loja Oficial</div></div>
+  </div>
+</section>
+
+<!-- TREINADORES -->
+<section id="treinadores">
+  <div class="section-header reveal">
+    <p class="section-label">A Nossa Equipa</p>
+    <h2 class="section-title">OS NOSSOS<br>PROFISSIONAIS</h2>
+  </div>
+  <div class="coaches-grid">
+    <div class="coach-card reveal">
+      <div class="coach-photo-area">
+        <img src="images/treinador1.png" alt="Treinador 1">
+      </div>
+      <div class="coach-info">
+        <div class="coach-name">Treinador 1</div>
+        <div class="coach-role">Função / Cargo</div>
+        <p class="coach-bio">Descrição do treinador.</p>
+      </div>
+    </div>
+    <div class="coach-card reveal">
+      <div class="coach-photo-area">
+        <img src="images/treinador2.png" alt="Treinador 2">
+      </div>
+      <div class="coach-info">
+        <div class="coach-name">Treinador 2</div>
+        <div class="coach-role">Função / Cargo</div>
+        <p class="coach-bio">Descrição do treinador.</p>
+      </div>
+    </div>
+    <div class="coach-card reveal">
+      <div class="coach-photo-area">
+        <img src="images/treinador3.png" alt="Treinador 3">
+      </div>
+      <div class="coach-info">
+        <div class="coach-name">Treinador 3</div>
+        <div class="coach-role">Função / Cargo</div>
+        <p class="coach-bio">Descrição do treinador.</p>
+      </div>
+    </div>
+    <div class="coach-card reveal">
+      <div class="coach-photo-area">
+        <img src="images/treinador4.png" alt="Treinador 4">
+      </div>
+      <div class="coach-info">
+        <div class="coach-name">Treinador 4</div>
+        <div class="coach-role">Função / Cargo</div>
+        <p class="coach-bio">Descrição do treinador.</p>
+      </div>
+    </div>
+    <div class="coach-card reveal">
+      <div class="coach-photo-area">
+        <img src="images/treinador5.png" alt="Treinador 5">
+      </div>
+      <div class="coach-info">
+        <div class="coach-name">Treinador 5</div>
+        <div class="coach-role">Função / Cargo</div>
+        <p class="coach-bio">Descrição do treinador.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLANEAMENTO -->
+<section id="planeamento">
+  <div class="planeamento-stripe"></div>
+  <div class="section-header reveal">
+    <p class="section-label">Estrutura Semanal</p>
+    <h2 class="section-title">PLANEAMENTO</h2>
+  </div>
+  <div class="planning-grid">
+    <div class="plan-card reveal"><div class="plan-day">Semana 1</div><div class="plan-date">01/06 a 05/06</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+    <div class="plan-card reveal"><div class="plan-day">Semana 2</div><div class="plan-date">08/06 a 12/06</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+    <div class="plan-card reveal"><div class="plan-day">Semana 3</div><div class="plan-date">15/06 a 19/06</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+    <div class="plan-card reveal"><div class="plan-day">Semana 4</div><div class="plan-date">22/06 a 26/06</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+    <div class="plan-card reveal"><div class="plan-day">Semana 5</div><div class="plan-date">29/06 a 03/07</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+    <div class="plan-card reveal"><div class="plan-day">Semana 6</div><div class="plan-date">06/07 a 10/07</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+    <div class="plan-card reveal"><div class="plan-day">Semana 7</div><div class="plan-date">13/07 a 17/07</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+    <div class="plan-card reveal"><div class="plan-day">Semana 8</div><div class="plan-date">27/07 a 31/07</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+    <div class="plan-card reveal"><div class="plan-day">Semana 9</div><div class="plan-date">03/08 a 07/08</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+    <div class="plan-card reveal"><div class="plan-day">Semana 10</div><div class="plan-date">10/08 a 14/08</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+    <div class="plan-card reveal"><div class="plan-day">Semana 11</div><div class="plan-date">17/08 a 21/08</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+    <div class="plan-card reveal"><div class="plan-day">Semana 12</div><div class="plan-date">24/08 a 28/08</div><p class="plan-desc">📍 Local: Estádio do Serrado Amora</p></div>
+  </div>
+</section>
+
+<!-- REGULAMENTO -->
+<section id="regulamento">
+  <div class="section-header reveal">
+    <p class="section-label">Regulamento</p>
+    <h2 class="section-title">REGULAMENTO 2026</h2>
+  </div>
+  <div class="regulamento-content reveal">
+    <p class="regulamento-text">Consulta todas as informações importantes do evento no documento oficial.</p>
+    <a href="https://www.youtube.com/watch?v=a2giXO6eyuI&list=RDtBvxQlYSvic&index=2" target="_blank" class="regulamento-btn">📄 Ver Regulamento</a>
+  </div>
+</section>
+
+<!-- PREÇÁRIO -->
+<section id="precario">
+  <div class="section-header reveal" style="text-align:center">
+    <p class="section-label">Investimento</p>
+    <h2 class="section-title">PACKS GOAT</h2>
+  </div>
+  <div class="pricing-grid">
+    <div class="price-card featured reveal">
+      <div class="price-tag">🔥 Mais Completo</div>
+      <div class="price-plan">GOAT Performance Pack</div>
+      <div class="price-amount"><span class="euro">€</span><span class="value">90</span></div>
+      <div class="price-desc">Pack completo de evolução</div>
+      <ul class="price-features">
+        <li><span class="check">✦</span> Avaliação Diagnóstica</li>
+        <li><span class="check">✦</span> Sessão de Testes Físicos</li>
+        <li><span class="check">✦</span> 4 sessões de treino em grupo</li>
+        <li><span class="check">✦</span> 2 sessões de formação (psicologia + nutrição)</li>
+        <li><span class="check">✦</span> T-shirt oficial</li>
+        <li><span class="check">✦</span> Relatório de Avaliação Final</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <div class="price-plan">GOAT Group Training Pack</div>
+      <div class="price-amount"><span class="euro">€</span><span class="value">48</span></div>
+      <div class="price-desc">Treino em grupo</div>
+      <ul class="price-features">
+        <li><span class="check">✦</span> Avaliação Diagnóstica</li>
+        <li><span class="check">✦</span> 4 sessões de treino em grupo</li>
+        <li><span class="check">✦</span> Relatório de Avaliação Final</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <div class="price-plan">GOAT Individual Training Pack</div>
+      <div class="price-amount"><span class="euro">€</span><span class="value">65</span></div>
+      <div class="price-desc">Treino individual</div>
+      <ul class="price-features">
+        <li><span class="check">✦</span> Avaliação Diagnóstica</li>
+        <li><span class="check">✦</span> 3 sessões de treino individual</li>
+        <li><span class="check">✦</span> Relatório de Avaliação Final</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <div class="price-plan">GOAT Group Session</div>
+      <div class="price-amount"><span class="euro">€</span><span class="value">15</span></div>
+      <div class="price-desc">Sessão avulsa em grupo</div>
+      <ul class="price-features">
+        <li><span class="check">✦</span> Avaliação Diagnóstica</li>
+        <li><span class="check">✦</span> 1 sessão de treino em grupo</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <div class="price-plan">GOAT Individual Session</div>
+      <div class="price-amount"><span class="euro">€</span><span class="value">25</span></div>
+      <div class="price-desc">Sessão personalizada</div>
+      <ul class="price-features">
+        <li><span class="check">✦</span> Avaliação Diagnóstica</li>
+        <li><span class="check">✦</span> 1 sessão de treino individual</li>
+      </ul>
+    </div>
+  </div>
+  <div class="extra-section reveal">
+    <div class="extra-header">
+      <span style="font-size:1.4rem">⚙️</span>
+      <h3>SERVIÇOS EXTRA</h3>
+    </div>
+    <table class="extra-table">
+      <tr><td>Avaliação Diagnóstica</td><td class="price-free">GRÁTIS</td></tr>
+      <tr><td>Testes Físicos</td><td class="price-val">20€</td></tr>
+      <tr><td>Sessão de Formação</td><td class="price-val">15€ (1) &nbsp;|&nbsp; 25€ (2)</td></tr>
+      <tr><td>T-shirt</td><td class="price-val">10€ (1) &nbsp;|&nbsp; 17,50€ (2)</td></tr>
+      <tr><td>Relatório de Avaliação Final</td><td class="price-free">GRÁTIS</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- LOJA -->
+<section id="loja">
+  <div class="section-header reveal">
+    <p class="section-label">A Nossa Loja</p>
+    <h2 class="section-title">Artigos Oficiais</h2>
+  </div>
+  <div class="store-grid">
+    <div class="store-card reveal">
+      <div class="store-image"><img src="camisa.png" alt="T-shirt Oficial"></div>
+      <div class="store-info">
+        <div class="store-name">T-shirt Oficial</div>
+        <div class="store-desc">Encomenda via contacto</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTOS -->
+<section id="contactos">
+  <div class="section-header reveal">
+    <p class="section-label">Fala Connosco</p>
+    <h2 class="section-title">CONTACTOS</h2>
+  </div>
+  <div class="contacts-grid">
+    <div class="contact-card reveal"><div class="contact-icon-wrap">📱</div><div><div class="contact-label">Telefone / WhatsApp</div><div class="contact-value">Número principal</div><div class="contact-sub">Horas disponíveis</div></div></div>
+    <div class="contact-card reveal"><div class="contact-icon-wrap">📧</div><div><div class="contact-label">Email</div><div class="contact-value">email@exemplo.com</div><div class="contact-sub">Resposta em 24h</div></div></div>
+    <div class="contact-card reveal"><div class="contact-icon-wrap">📍</div><div><div class="contact-label">Local</div><div class="contact-value">Local do evento</div><div class="contact-sub">Onde se situa</div></div></div>
+    <div class="contact-card reveal"><div class="contact-icon-wrap">📸</div><div><div class="contact-label">Instagram</div><div class="contact-value">instagram</div><div class="contact-sub">Segue-nos para novidades</div></div></div>
+  </div>
+  <div class="contact-coach-grid">
+    <div class="coach-contact-card reveal"><div class="coach-avatar">👨‍💼</div><div><div class="coach-contact-name">Nome</div><div class="coach-contact-role">Função</div><div class="coach-contact-info">Nº · Email</div></div></div>
+    <div class="coach-contact-card reveal"><div class="coach-avatar">👨‍💼</div><div><div class="coach-contact-name">Nome</div><div class="coach-contact-role">Função</div><div class="coach-contact-info">Nº · Email</div></div></div>
+    <div class="coach-contact-card reveal"><div class="coach-avatar">👨‍💼</div><div><div class="coach-contact-name">Nome</div><div class="coach-contact-role">Função</div><div class="coach-contact-info">Nº · Email</div></div></div>
+    <div class="coach-contact-card reveal"><div class="coach-avatar">👨‍💼</div><div><div class="coach-contact-name">Nome</div><div class="coach-contact-role">Função</div><div class="coach-contact-info">Nº · Email</div></div></div>
+  </div>
+</section>
+
+<!-- INSCRIÇÃO -->
+<section id="inscricao">
+  <div class="section-header reveal">
+    <p class="section-label">Inscrição</p>
+    <h2 class="section-title">Inscrição dos Atletas</h2>
+  </div>
+  <div class="regulamento-content reveal">
+    <p class="regulamento-text">Para garantir a tua vaga, consulta o regulamento e inscreve-te através do formulário oficial.</p>
+    <a href="https://www.youtube.com/watch?v=a2giXO6eyuI&list=RDtBvxQlYSvic&index=2" target="_blank" class="regulamento-btn">📝 Inscrever</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo"><img src="logo2.png" alt="GCFA Logo">Game Changer Football Academy</div>
+      <p>Formamos jogadores completos — técnicos, táticos, físicos e mentais. O verão que vai mudar o teu jogo começa aqui.</p>
+      <div class="footer-socials">
+        <a href="#" class="social-btn">📸</a>
+        <a href="#" class="social-btn">▶️</a>
+        <a href="#" class="social-btn">💬</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navegação</h4>
+      <ul class="footer-links">
+        <li><a href="#sobre">Sobre a Academia</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#treinadores">Staff</a></li>
+        <li><a href="#planeamento">Planeamento</a></li>
+        <li><a href="#regulamento">Regulamento</a></li>
+        <li><a href="#precario">Preçário</a></li>
+        <li><a href="#inscricao">Inscrição</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul class="footer-links">
+        <li><a href="#">Número principal</a></li>
+        <li><a href="#">email@exemplo.com</a></li>
+        <li><a href="#">Local</a></li>
+        <li><a href="#">instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 <span class="gc">Game Changer Football Academy</span>. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
