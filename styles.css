@@ -37,7 +37,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; display: flex; 
 .hero-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3.5rem, 9vw, 7.5rem); line-height: .95; letter-spacing: 2px; animation: fadeUp .8s .2s ease both; }
 .hero-title .accent { color: var(--purple); }
 .hero-title .white { color: var(--white); }
-.hero-sub { font-size: 1.1rem; color: var(--gray); max-width: 560px; margin: 20px auto 36px; line-height: 1.6; animation: fadeUp .8s .35s ease both; }
+.hero-sub { font-size: 1.1rem; color: var(--white); max-width: 560px; margin: 20px auto 36px; line-height: 1.6; animation: fadeUp .8s .35s ease both; }
 .hero-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; animation: fadeUp .8s .5s ease both; }
 .btn-primary { background: var(--purple); color: #fff; padding: 14px 36px; border: none; border-radius: 6px; font-family: 'Barlow Condensed', sans-serif; font-size: 1rem; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; text-decoration: none; transition: background .2s, transform .2s, box-shadow .2s; box-shadow: 0 0 24px rgba(181,79,232,0.35); }
 .btn-primary:hover { background: var(--purple-dark); transform: translateY(-2px); box-shadow: 0 6px 32px rgba(181,79,232,0.5); }
